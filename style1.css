@@ -1,0 +1,136 @@
+
+body{
+    
+    background-image: url(images/bg3.jpg);
+    font-family: 'Julius Sans One', sans-serif,'Noto Sans TC', sans-serif;}
+
+
+
+#sec1,#sec2,#sec3,#sec4,#sec5,#sec6,#sec7,#sec8{
+    background-color:#4646467a;
+    margin-top: 12px;
+    border-radius: 15px;
+}
+
+
+pre{
+   
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #000000b6;
+    font-size: 20px;
+
+
+}
+
+
+.h2-ch{
+    padding-top: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.h2-en{
+    text-align: center;
+padding-left: 80px;
+font-size: 22px;
+color:rgba(255, 255, 255, 0.699);
+}
+
+.p-ch,.p-en{
+    display: none;
+}
+
+
+.img{
+    
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgba(165, 165, 165, 0.603);
+}
+
+
+
+@media screen and ( min-width:992px){
+
+    body{
+        background-image: url(images/bg3.jpg);
+        font-family: 'Julius Sans One', sans-serif,'Noto Sans TC', sans-serif;
+
+       
+    }
+  
+#sec1,#sec2,#sec3,#sec4,#sec5,#sec6,#sec7,#sec8{
+    height: 600px;
+    width: 1140px;
+    background-color: rgba(39, 39, 39, 0.788);
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(131, 131, 131, 0.514);
+    margin-bottom: 15px;
+    background-attachment: fixed;
+    transition: all 1s;
+}
+
+#sec1{
+    margin-top: 70px;
+}
+
+    .left{
+        padding-left: 45px;
+    }
+
+    .pic{
+        width: 700px;
+        height: 525px;
+        max-width: 700px;
+        padding-top: 100px;
+      
+    }
+    .pic a{
+        opacity: 1;
+    }
+    .pic a:hover{
+        opacity: 0.5;
+    }
+
+    .word{
+display: block;
+        padding-top: 100px;
+    }
+    .h2-ch{
+        text-align: left;
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+    .h2-en{
+        text-align: left;
+        margin-top: -20px;
+    padding-left: 80px;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.692);
+    }
+
+    .p-ch{
+        display: block;
+        padding-top: 180px;
+        font-size: 20px;
+        color: rgba(255, 255, 255);
+    }
+    .p-en{
+        display: block;
+        font-size: 16px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.692);
+        padding-left: 15px;
+        margin-top: -20px;
+        
+       
+    }
+    pre{
+        font-size:24px ;
+    }
+}
